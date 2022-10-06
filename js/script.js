@@ -10,6 +10,8 @@ const buttonShiny = document.querySelector('.btn-shiny')
 
 let searchPokemon = 1;
 
+let a = 13;
+
 const fetchPokemon = async (pokemon) => {
 
     const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
