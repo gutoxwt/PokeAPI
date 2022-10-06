@@ -10,7 +10,7 @@ const buttonShiny = document.querySelector('.btn-shiny')
 
 let searchPokemon = 1;
 
-let a = 13;
+let a = 22;
 
 const fetchPokemon = async (pokemon) => {
 
